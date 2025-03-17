@@ -1,12 +1,8 @@
-# React + Vite
+perguntas para realizar ao renan:
+- posso usar o react router dom substituindo o express? ou tem como usar ambos no mesmo projeto? 
+- oque acha sobre a ideia dos modulos? eu implemento isso com react router dom, ou com o express
+tipo o motorista tem as rotas dele o cliente tem as rotas dele, a gestão as rotas dele, a ideia de "o react dom é mais micro e express é mais macro" é realista? tipo, o react dom eu uso pro motorista fazer a navegação nas paginas dele, o express eu uso pro motorista se logar nas rotas dele.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+como funciona o mvc se e somar com essa estrutura do vite + react?
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+eu posso criar 3 paginas uma com cada uma das funções e distribuir no projeto dentro do src ou não? 
