@@ -8,17 +8,19 @@ import SideBarRight from "./sideBarRight";
 const Page = ({ children }) => {
 
     return(
-        <div className="page-container">
-            <Header />
-        <div className="main-content">
-            <SideBarRight />
-            <SideBarLeft />
-          <main className="content">
-            {children}
-          </main>
-
-        </div>
-      </div>
+        <>
+        <Header />
+        <SideBarRight />
+        <SideBarLeft />
+            <div className="page-content">
+              <h1>PAGINA INICIAL</h1>
+              <main className="main-content">
+                {children}
+              </main>
+    
+            </div>
+        </>
+       
     );
   }
 

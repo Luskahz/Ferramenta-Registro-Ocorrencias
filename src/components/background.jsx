@@ -1,16 +1,13 @@
 import React from "react"
 
-
 const Background = ({ children }) => {
     return(
         <>
-        <div>
+        <div className="background">
             {children}
         </div>
         </>
     )
 }
-
-
 
 export default Background
