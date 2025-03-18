@@ -1,5 +1,5 @@
 import React from "react"
-import Header from "./header";
+import GlobalHeader from "./GlobalHeader";
 import SideBarLeft from "./sideBarLeft";
 import SideBarRight from "./sideBarRight";
 
@@ -9,7 +9,7 @@ const Page = ({ children }) => {
 
     return(
         <>
-        <Header />
+        <GlobalHeader />
         <SideBarRight />
         <SideBarLeft />
             <div className="page-content">
@@ -21,7 +21,7 @@ const Page = ({ children }) => {
             </div>
         </>
        
-    );
+    )
   }
 
 export default Page;
