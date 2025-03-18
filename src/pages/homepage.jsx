@@ -2,7 +2,7 @@ import Background from "../components/background";
 import Page from "page";
 
 
-function Homepage(){
+function HomePage(){
     <Background>
         <Page>
             <div>
@@ -11,3 +11,6 @@ function Homepage(){
         </Page>
     </Background>
 }
+
+
+export default HomePage

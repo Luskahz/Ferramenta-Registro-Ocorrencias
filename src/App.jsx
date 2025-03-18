@@ -1,12 +1,11 @@
-import './App.css'
-import { defineConfig } from 'vite'
+import "./App.css";
+import Rotas from "./routes/router";
 
 function App() {
-  
+
   return (
-    <>
-    </>
+    <Rotas/>
   )
 }
 
-export default App
+export default App;
