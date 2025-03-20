@@ -6,3 +6,9 @@ tipo o motorista tem as rotas dele o cliente tem as rotas dele, a gestão as rot
 como funciona o mvc se e somar com essa estrutura do vite + react?
 
 eu posso criar 3 paginas uma com cada uma das funções e distribuir no projeto dentro do src ou não? 
+
+
+
+
+dependencias npm que preciso baixar:
+- npm install papaparse (conversor de objeto em csv)
