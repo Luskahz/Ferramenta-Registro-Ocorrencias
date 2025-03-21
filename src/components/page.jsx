@@ -2,6 +2,7 @@ import React from "react"
 import GlobalHeader from "./GlobalHeader";
 import SideBarLeft from "./sideBarLeft";
 import SideBarRight from "./sideBarRight";
+import "../index.css"
 
 
 
