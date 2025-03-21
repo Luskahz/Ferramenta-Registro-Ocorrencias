@@ -4,7 +4,7 @@ import "./styles/header.css"
 const GlobalHeader = ({children}) => {
     return (
         <>
-        <header>
+        <header className="w-full h-[20hv] bg-">
             <div className="start-itens">
                 <div className="side-menu-button">&#9776;</div>
                 <div className="logo-icon-button"></div>
