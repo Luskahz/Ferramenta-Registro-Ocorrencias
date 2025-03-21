@@ -4,13 +4,16 @@ import Page from "../components/page";
 
 function HomePage(){
     return(
-    <Background>
-        <Page>
-            <div>
-                <h1>testando div principal</h1>
-            </div>
-        </Page>
-    </Background>
+        <Background>
+            {/*
+                <Page>
+                    <div>
+                        <h1>testando div principal</h1>
+                    </div>
+                </Page>
+            */} 
+        
+        </Background>
     )
 }
 
