@@ -1,8 +1,9 @@
 import Background from "../components/background";
-import Page from "page";
+import Page from "../components/page";
 
 
 function HomePage(){
+    return(
     <Background>
         <Page>
             <div>
@@ -10,6 +11,7 @@ function HomePage(){
             </div>
         </Page>
     </Background>
+    )
 }
 
 
