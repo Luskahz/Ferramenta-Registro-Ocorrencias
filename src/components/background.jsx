@@ -3,7 +3,7 @@ import React from "react"
 const Background = ({ children }) => {
     return(
         <>
-        <div className="background">
+        <div className="">
             {children}
         </div>
         </>
