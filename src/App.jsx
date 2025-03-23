@@ -1,9 +1,11 @@
-import Rotas from "./routes/router";
+import Rotas from "./routes/router.jsx";
 
 function App() {
 
   return (
-    <Rotas />
+    <>
+      <Rotas />
+    </>
   )
 }
 

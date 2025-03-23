@@ -1,5 +1,8 @@
 export default function SideBarRight(){
     return (
-        <div></div>
+        <div className="absolute z-50">
+
+
+        </div>
     )
 }

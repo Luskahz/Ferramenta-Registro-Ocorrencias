@@ -1,13 +1,11 @@
-import React from "react"
+import React from "react";
 
-const Background = ({ children }) => {
-    return(
-        <>
-        <div className="">
+const Background = ({ children, className = "" }) => {
+    return (
+        <div className={`relative bg-gray-950 min-h-screen flex ${className}`}>
             {children}
         </div>
-        </>
-    )
-}
+    );
+};
 
-export default Background
+export default Background;
