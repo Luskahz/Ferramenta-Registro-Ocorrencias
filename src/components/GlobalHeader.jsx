@@ -5,7 +5,7 @@ const GlobalHeader = ({ children }) => {
     <>
       <header className="absolute z-10 flex h-[var(--GlobalHeaderH)] w-full flex-row items-center justify-between bg-gray-900">
         <div className="start-itens m-2 flex h-[50%] w-[40%] flex-row items-center gap-5 bg-gray-900">
-          <div className="side-menu-button flex h-full w-[2rem] items-center justify-center border-1 text-white">&#9776;</div>
+          <button className="side-menu-button flex h-full w-[2rem] items-center justify-center text-white bg-gray-900 hover:bg-gray-800 rounded-sm cursor-pointer border-1 border-gray-700">&#9776;</button>
           <div className="logo-icon-button h-full w-[2rem] bg-gray-700"></div>
           <div className="Breadcrumb h-full min-w-[2rem] bg-gray-700"></div>
         </div>
