@@ -1,8 +1,10 @@
 import Background from "../components/background.jsx";
-import Page from "../components/page";
+import Page from "../components/page.jsx";
 
 
-function HomePage(){
+
+
+function Dashboard(){
     return(
         <Background>
             <Page>
@@ -15,4 +17,4 @@ function HomePage(){
 }
 
 
-export default HomePage
+export default Dashboard
