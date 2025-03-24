@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
+body{
+ 
+}
+
 
 header{
-    --GlobalHeaderH: 7vh;
+    --GlobalHeaderH: 7.5%;
 }
