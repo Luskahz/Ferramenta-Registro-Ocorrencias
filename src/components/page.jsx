@@ -19,7 +19,7 @@ export const Page = ({ children }) => {
 
   export const Content = ({ children }) => {
     return (
-      <div className="bg-gray-800 w-[95vw] max-w-[1200px] h-[95vh] max-h-[800px] overflow-auto mx-auto my-4 p-5 rounded-lg flex flex-wrap gap-5">
+      <div className="w-[80%] min-h-screen h-auto flex flex-wrap gap-4 bg-gray-400">
         {children}
       </div>
     );

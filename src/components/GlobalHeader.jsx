@@ -4,7 +4,7 @@ import NavActions from "./navActions";
 function GlobalHeader() {
   return (
     <>
-      <header className="absolute z-10 flex h-[var(--GlobalHeaderH)] w-full flex-row items-center justify-between bg-gray-900 top-0">
+      <header className="fixed z-10 flex h-[var(--GlobalHeaderH)] w-screen flex-row items-center justify-between bg-gray-900 top-0">
         <div className="start-itens m-2 flex h-[50%] w-[40%] flex-row items-center gap-[0.5rem] bg-gray-900">
           <button className="side-menu-button flex h-full w-[2rem] items-center justify-center text-white bg-gray-900 hover:bg-gray-800 rounded-sm cursor-pointer border-[1.5px] border-gray-700">&#9776;</button>
           <a className="logo-icon-button h-full w-[2rem] rounded-full bg-gray-800 hover:bg-gray-700"></a>
