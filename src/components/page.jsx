@@ -12,19 +12,16 @@ export const Page = ({ children }) => {
         <SideBarRight />
         <SideBarLeft />
         <GlobalHeader />
-        <div className="page-content flex flex-row justify-center items-center min-h-full min-w-full z-2">
           {children}
-        </div>
         </>
-       
     )
   }
 
-export const Content =({ children }) =>{
-
-  return(
-    <div className="flex flex-row justify-center items-center  bg-gray-100" >
+  export const Content = ({ children }) => {
+    return (
+      <div className="bg-gray-800 w-[95vw] max-w-[1200px] h-[95vh] max-h-[800px] overflow-auto mx-auto my-4 p-5 rounded-lg flex flex-wrap gap-5">
         {children}
-    </div>
-  )
-}
+      </div>
+    );
+  };  
+  
