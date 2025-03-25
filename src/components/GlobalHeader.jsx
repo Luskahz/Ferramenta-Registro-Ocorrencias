@@ -15,7 +15,7 @@ const GlobalHeader = ({ children }) => {
           <nav className="navbar h-full min-w-[2rem] bg-gray-900 flex flex-row gap-2">
             <NavActions />
           </nav>
-          <button className="search-icon-button h-full w-[20rem] border-gray-700 border-[1.5px] cursor-pointer"></button>
+          {/*<button className="search-icon-button h-full w-[20rem] border-gray-700 border-[1.5px] cursor-pointer"></button>*/}
         </div>
       </header>
     </>
