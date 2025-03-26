@@ -19,7 +19,7 @@ export const Page = ({ children }) => {
 
   export const Content = ({ children }) => {
     return (
-      <div className="absolute z-1 min-w-[95%] min-h-[95%] flex flex-wrap gap-4 bg-gray-400 top-20">
+      <div className="absolute z-1 w-full max-w-[75rem] min-h-[80vh] mx-auto flex flex-wrap gap-4 bg-gray-900 top-20">
         {children}
       </div>
     );
