@@ -1,5 +1,5 @@
 import Background from "../components/background.jsx";
-import { GlobalElements } from "../components/page.jsx";
+import { GlobalElements } from "../components/pageElements.jsx";
 
 
 

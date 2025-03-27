@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SideBarLeft = ({ onClose }) => {
+const SideMenuBar = ({ onClose }) => {
   return (
     <div 
       className="sideBarLeft fixed z-50 top-0 left-0 right-0 bottom-0 bg-[rgba(16,24,40,0.5)]"
@@ -26,4 +26,4 @@ const SideBarLeft = ({ onClose }) => {
   );
 };
 
-export default SideBarLeft;
+export default SideMenuBar;
