@@ -11,3 +11,31 @@ body{
 header{
     --GlobalHeaderH: 3.5rem;
 }
+
+
+
+/* Esconde a scrollbar no Chrome/Safari */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Estiliza a scrollbar no Chrome/Safari */
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: var(--cor-fundo-scroll, #1e293b); /* Usando variável ou cor padrão */
+    border-radius: 10px;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background: var(--cor-scroll-thumb, #64748b);
+    border-radius: 10px;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background: var(--cor-scroll-hover, #475569);
+  }
+  
