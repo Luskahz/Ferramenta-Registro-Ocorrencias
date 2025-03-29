@@ -9,6 +9,7 @@ function Dashboard(){
     return(
         <Background>
             <GlobalElements>
+                <div className="bg-gray-300 h-[1000rem] w-[60rem]"></div>
             </GlobalElements>
         </Background>
     )

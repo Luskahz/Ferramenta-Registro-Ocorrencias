@@ -6,7 +6,7 @@ import UserSideBar from "./userSideBar";
 
 export const Wrapper = ({ children }) => {
   return (
-    <div className="WRAPPER w-[80rem] h-[100rem] max-h-none  overflow-y-auto overflow-x-hidden flex flex-wrap gap-4 mt-17 p-4 bg-gray-900 justify-center items-center scrollbar-custom">
+    <div className="WRAPPER scrollbar-custom overflow-y-auto flex flex-wrap gap-4 mt-17 p-5 bg-gray-900 justify-center items-center">
       {children}
     </div>
   );
