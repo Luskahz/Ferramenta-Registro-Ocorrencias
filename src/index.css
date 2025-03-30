@@ -3,46 +3,47 @@
 @import "./styles/var/variables.css";
 @import "./styles/colors.css";
 
-body{
- 
+body {
 }
 
-
-header{
-    --GlobalHeaderH: 3.5rem;
-}html, body, #root {
+header {
+  --GlobalHeaderH: 3.5rem;
+}
+html,
+body,
+#root {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   overflow: hidden; /* Evita scroll global */
-  background-color: #030712 ;
+  background-color: #030712;
 }
-
-
 
 /* Esconde a scrollbar no Chrome/Safari */
 .scrollbar-hide::-webkit-scrollbar {
-    display: none;
-  }
-  
-  /* Estiliza a scrollbar no Chrome/Safari */
-  .scrollbar-custom::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-  }
-  
-  .scrollbar-custom::-webkit-scrollbar-track {
-    background: var(--cor-fundo-scroll, #1e293b); /* Usando variável ou cor padrão */
-    border-radius: 10px;
-  }
-  
-  .scrollbar-custom::-webkit-scrollbar-thumb {
-    background: var(--cor-scroll-thumb, #64748b);
-    border-radius: 10px;
-  }
-  
-  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
-    background: var(--cor-scroll-hover, #475569);
-  }
-  
+  display: none;
+}
+
+/* Estiliza a scrollbar no Chrome/Safari */
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: var(
+    --cor-fundo-scroll,
+    #1e293b
+  ); /* Usando variável ou cor padrão */
+  border-radius: 10px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: var(--cor-scroll-thumb, #64748b);
+  border-radius: 10px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: var(--cor-scroll-hover, #475569);
+}

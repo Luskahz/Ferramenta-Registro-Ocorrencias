@@ -1,29 +1,25 @@
 :root {
-    --GlobalHeaderAction-min-width: 2rem;
-    --GlobalHeaderAction-height: 100%;
-    --GlobalHeaderAction-color: white;
-    --GlobalHeaderAction-bg: #101828;
-    --GlobalHeaderAction-border-radius: 0.25rem;
-    --GlobalHeaderAction-border: 1.5px solid #364153;
-  }
-  
-  .GlobalHeaderAction {
-    min-width: var(--GlobalHeaderAction-min-width);
-    height: var(--GlobalHeaderAction-height);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--GlobalHeaderAction-color);
-    background-color: var(--GlobalHeaderAction-bg);
-    border-radius: var(--GlobalHeaderAction-border-radius);
-    cursor: pointer;
-    border: var(--GlobalHeaderAction-border);
-  }
-  
-
-  .GlobalHeaderAction:hover {
-    background-color: #1e2939; 
+  --GlobalHeaderAction-min-width: 2rem;
+  --GlobalHeaderAction-height: 100%;
+  --GlobalHeaderAction-color: white;
+  --GlobalHeaderAction-bg: #101828;
+  --GlobalHeaderAction-border-radius: 0.25rem;
+  --GlobalHeaderAction-border: 1.5px solid #364153;
 }
 
+.GlobalHeaderAction {
+  min-width: var(--GlobalHeaderAction-min-width);
+  height: var(--GlobalHeaderAction-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--GlobalHeaderAction-color);
+  background-color: var(--GlobalHeaderAction-bg);
+  border-radius: var(--GlobalHeaderAction-border-radius);
+  cursor: pointer;
+  border: var(--GlobalHeaderAction-border);
+}
 
-
+.GlobalHeaderAction:hover {
+  background-color: #1e2939;
+}

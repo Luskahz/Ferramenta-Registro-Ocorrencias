@@ -1,12 +1,15 @@
 import React from "react";
 
-
 const Background = ({ children }) => {
-    return (
-        <div className={ "relative bg-gray-950 w-full h-full min-w-screen min-h-screen flex flex-col justify-center items-center" }>
-            {children}
-        </div>
-    );
+  return (
+    <div
+      className={
+        "relative flex h-full min-h-screen w-full min-w-screen flex-col items-center justify-center bg-gray-950"
+      }
+    >
+      {children}
+    </div>
+  );
 };
 
-export default Background; 
+export default Background;
