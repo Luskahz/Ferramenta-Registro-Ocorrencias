@@ -10,12 +10,15 @@ const SideMenuBar = ({ onClose }) => {
         className="h-screen w-[20rem] bg-gray-800"
         onClick={(e) => e.stopPropagation()}
       >
-        <header className="flex items-center justify-between p-2">
-          <div className="LOGO closeModalButton flex h-[3rem] w-[3rem] items-center justify-center rounded-full border border-gray-500 pb-[3.5px] select-none hover:bg-gray-700">
+        <header className="HEADER flex items-center justify-between p-2">
+          <a
+            href=""
+            className="LOGO closeModalButton flex h-[2rem] w-[2rem] items-center justify-center rounded-full border border-gray-500 pb-[3.5px] select-none hover:bg-gray-700"
+          >
             img
-          </div>
+          </a>
           <button
-            className="closeModalButton flex h-[2rem] w-[2rem] items-center justify-center border border-gray-500 pb-[3.5px] text-gray-50 select-none hover:bg-gray-700"
+            className="CLOSE-MODAL-BUTTON flex h-[2rem] w-[2rem] items-center justify-center rounded-sm pb-[3.5px] text-gray-200 select-none hover:bg-gray-700"
             onClick={onClose}
           >
             &#x2A2F;
