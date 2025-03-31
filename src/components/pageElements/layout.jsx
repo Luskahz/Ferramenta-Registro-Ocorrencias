@@ -1,15 +1,8 @@
 import React, { useState } from "react";
-import Header from "../components/Header";
-import SideMenuBar from "./sideMenuBar";
-import UserSideBar from "./userSideBar";
-
-export const Wrapper = ({ children }) => {
-  return (
-    <div className="WRAPPER scrollbar-custom mt-25 flex max-w-screen flex-wrap items-center justify-center gap-4 overflow-y-auto bg-gray-900 p-5">
-      {children}
-    </div>
-  );
-};
+import Header from "../header/componentHeader";
+import SideMenuBar from "../sidebar/sideMenuBar";
+import UserSideBar from "../sidebar/userSideBar";
+import Wrapper from "./wrapper";
 
 export function GlobalElements({ children }) {
   //variaveis para o SideMenubar

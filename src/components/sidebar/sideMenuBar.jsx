@@ -1,4 +1,5 @@
 import React from "react";
+import { Navlist } from "../navLinks/navList";
 
 const SideMenuBar = ({ onClose }) => {
   return (
@@ -24,6 +25,7 @@ const SideMenuBar = ({ onClose }) => {
             &#x2A2F;
           </button>
         </header>
+        <Navlist />
       </div>
     </div>
   );

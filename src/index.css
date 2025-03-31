@@ -1,14 +1,11 @@
 @import "tailwindcss";
 @import "./styles/especifcComponents.css";
-@import "./styles/var/variables.css";
-@import "./styles/colors.css";
-
-body {
-}
+@import "./styles/var/colors.css";
 
 header {
   --GlobalHeaderH: 3.5rem;
 }
+
 html,
 body,
 #root {
