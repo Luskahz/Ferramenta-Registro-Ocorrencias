@@ -1,45 +1,50 @@
 import Background from "../components/background.jsx";
 import { GlobalElements } from "../components/pageElements/layout.jsx";
 import PrimaryElement from "../components/ui/ui-blocks/primaryElements.jsx";
-import PrimaryElementTitle from "../components/ui/ui-typography/primaryElementTitle.jsx";
+import Title_M from "../components/ui/ui-typography/Title_M.jsx";
+import Title_M_Left from "../components/ui/ui-typography/Title_M_Left.jsx";
+import { useState } from 'react';
+import UccurrenceCard from "../components/ui/ui-blocks/UccurrenceCard.jsx";
+
+import React from "react";
 function Dashboard() {
-  let TotDelivery = 500
-  let finalizedDelivery = 200;
+  const [hover, setHover] = useState(false);
+  let hOcorrencias = hover? 20 : 4
 
   return (
     <Background>
-      <GlobalElements>
-        <main className="CONTENT flex h-screen w-screen flex-col justify-baseline items-center">
-          <div className="FIRST_LINE grid h-[10rem] w-[85rem] grid-cols-1 gap-2 bg-gray-800 sm:grid-cols-2 md:grid-cols-4">
-          <PrimaryElement>
-          <PrimaryElementTitle>ENTREGAS RESTANTES</PrimaryElementTitle>
-            <div className="flex flex-row items-center justify-center gap-10 p-2 w-full">
-                <h2 className="text-white text-2xl font-bold bg-gray-700 rounded-xl w-28 h-10 flex items-center justify-center shadow-inner ring-2 ring-gray-400">
-                {`${TotDelivery}/${finalizedDelivery}`}
-                </h2>
-                <div className="w-10 h-10 relative bg-amber-50 rounded-full">
-                </div>
-              </div>
-          </PrimaryElement>
-
-            <PrimaryElement>
-             <PrimaryElementTitle>DEVOLUÇÕES TOTAIS</PrimaryElementTitle>
-
-            </PrimaryElement>
-            <PrimaryElement>
-             <PrimaryElementTitle>DEVOLUÇÕES TOTAIS</PrimaryElementTitle>
-
-            </PrimaryElement>
-            <PrimaryElement>
-             <PrimaryElementTitle>DEVOLUÇÕES TOTAIS</PrimaryElementTitle>
-
-            </PrimaryElement>
+      <GlobalElements >
+        <main className="CONTENT gap-3 flex h-screen w-screen flex-col justify-baseline items-center">
+          <div className="w-full h-full bg-gray-800 flex flex-col gap-1 rounded-lg">
+            <div className="flex gap-2 w-full h-[18.8rem] bg-gray-700">
+            </div>
+            <div className="flex gap-2 w-full h-[18.8rem] bg-gray-700">
+            </div>
+            
           </div>
-          <div className="SECOND_LINE grid h-[10rem] w-[85rem] grid-cols-1 gap-2 bg-gray-800 sm:grid-cols-2 md:grid-cols-4 ">
 
 
+
+
+
+          <div className={`Occurrences z-0 p-1 pl-3 bg-gray-800 border-t-3 border-gray-900 w-full h-[${hOcorrencias}rem] absolute bottom-0 transition-all duration-300`}
+          onMouseEnter = {() => setHover(true)}
+          onMouseLeave = {()=> setHover(false)}
+          >
+            <Title_M_Left>Ocorrencias</Title_M_Left>
+            <div className="OccurrencesList flex gap-5 overflow-x-auto">
+              <UccurrenceCard></UccurrenceCard>
+              <UccurrenceCard></UccurrenceCard>
+              <UccurrenceCard></UccurrenceCard>
+              <UccurrenceCard></UccurrenceCard>
+              <UccurrenceCard></UccurrenceCard>
+              <UccurrenceCard></UccurrenceCard>
+              <UccurrenceCard></UccurrenceCard>
+
+            </div>
           </div>
         </main>
+        
       </GlobalElements>
     </Background>
   );
