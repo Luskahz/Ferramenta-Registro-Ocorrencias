@@ -1,7 +1,7 @@
 export default function UccurrenceCard({ children }) {
-    return (
-        <div className="OccurrenceCard size-[15rem] bg-gray-700 rounded-lg">
-            {children}
-        </div>
-    );
-  }
+  return (
+    <div className="OccurrenceCard size-[15rem] shrink-0 rounded-sm bg-gray-700">
+      {children}
+    </div>
+  );
+}

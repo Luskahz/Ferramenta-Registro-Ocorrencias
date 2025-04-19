@@ -17,12 +17,12 @@ export default function GlobalHeader({ openSideMenubar, openUserSidebar }) {
           ></a>
           <div className="BREADCRUMB h-full min-w-[10rem] rounded-sm bg-gray-700"></div>
         </div>
-        <div className="END-ITENS m-2 flex h-[50%] w-[50%] flex-row-reverse gap-5 bg-gray-900">
+        <div className="END-ITENS m-2 flex h-[50%] w-[50%] flex-row-reverse items-center gap-5 bg-gray-900">
           <button
             className="profile-menu-button h-full w-[2rem] rounded-full bg-gray-800 hover:bg-gray-700"
             onClick={openUserSidebar}
           ></button>
-          <nav className="navbar flex h-full min-w-[2rem] flex-row gap-2 bg-gray-900">
+          <nav className="navbar flex h-full min-w-[6rem] flex-row gap-2 bg-gray-900">
             <NavActions />
           </nav>
           <button className="search-icon-button h-full w-[20rem] cursor-pointer border-[1.5px] border-gray-700"></button>

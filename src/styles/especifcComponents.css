@@ -1,5 +1,6 @@
 :root {
-  --GlobalHeaderAction-min-width: 2rem;
+  --GlobalHeaderAction-min-width: 0rem;
+  --GlobalHeaderAction-width: 100%;
   --GlobalHeaderAction-height: 100%;
   --GlobalHeaderAction-color: white;
   --GlobalHeaderAction-bg: #101828;
@@ -9,6 +10,7 @@
 
 .GlobalHeaderAction {
   min-width: var(--GlobalHeaderAction-min-width);
+  width: var(--GlobalHeaderAction-width);
   height: var(--GlobalHeaderAction-height);
   display: flex;
   justify-content: center;

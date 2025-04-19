@@ -1,7 +1,7 @@
 export default function PrimaryElement({ children }) {
-    return (
-      <div className="p-5 w-full max-h-full bg-gray-600 flex flex-col items-center rounded-xl shadow-md">
-        {children}
-      </div>
-    );
-  }
+  return (
+    <div className="flex max-h-full w-full flex-col items-center rounded-xl bg-gray-600 p-5 shadow-md">
+      {children}
+    </div>
+  );
+}

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Header from "../header/componentHeader";
 import SideMenuBar from "../sidebar/sideMenuBar";
 import UserSideBar from "../sidebar/userSideBar";
-import Wrapper from "./wrapper";
 
 export function GlobalElements({ children }) {
   //variaveis para o SideMenubar
@@ -23,7 +22,7 @@ export function GlobalElements({ children }) {
         openSideMenubar={openSideMenubar}
         openUserSidebar={openUserSidebar}
       />
-      <Wrapper>{children}</Wrapper>
+      {children}
     </>
   );
 }
