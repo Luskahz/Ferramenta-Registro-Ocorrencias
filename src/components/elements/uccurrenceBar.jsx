@@ -3,7 +3,7 @@ import { UccurrenceCard, Title } from "../index";
 export default function UccurrenceBar({ setHover, hover }) {
   return (
     <div
-      className={`Occurrences z-0 w-full border-t-3 border-[var(--gray-80)] bg-[var(--gray-90)] pl-3 ${hover ? "h-[12rem]" : "h-[6vh]"} absolute bottom-0 transition-all duration-300`}
+      className={`Occurrences z-0 w-full border-t-3 border-[var(--gray-80)] bg-[var(--gray-90)] pl-3 ${hover ? "h-[12rem]" : "h-[12vh] sm:h-[6vh] "} absolute bottom-0 transition-all duration-500`}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
