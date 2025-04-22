@@ -19,15 +19,6 @@ export function Navlist() {
         <ul>
           <GestaoPages />
         </ul>
-        <ul>
-          <GestaoPages />
-        </ul>
-        <ul>
-          <GestaoPages />
-        </ul>
-        <ul>
-          <GestaoPages />
-        </ul>
       </nav>
     </>
   );

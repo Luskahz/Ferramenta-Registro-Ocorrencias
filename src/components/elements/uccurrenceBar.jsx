@@ -7,8 +7,12 @@ export default function UccurrenceBar({ setHover, hover }) {
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      <Title.Md_L>Ocorrencias</Title.Md_L>
+      <Title.Md_L className={"p-1.5 pb-6"}>Ocorrencias</Title.Md_L>
       <div className="OccurrencesList scrollbar-custom flex gap-5 overflow-x-auto">
+        <UccurrenceCard></UccurrenceCard>
+        <UccurrenceCard></UccurrenceCard>
+        <UccurrenceCard></UccurrenceCard>
+        <UccurrenceCard></UccurrenceCard>
         <UccurrenceCard></UccurrenceCard>
       </div>
     </div>

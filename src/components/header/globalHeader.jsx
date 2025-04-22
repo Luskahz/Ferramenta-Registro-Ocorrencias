@@ -19,9 +19,11 @@ export default function GlobalHeader({ openSideMenubar, openUserSidebar }) {
         </div>
         <div className="END-ITENS m-2 flex h-[50%] w-[50%] flex-row-reverse items-center gap-5 bg-[var(--gray-95)]">
           <button
-            className="PROFILE-MENU-BUTTON h-full w-[2rem] rounded-full bg-[var(--gray-90)] hover:bg-[var(--gray-87)]"
+            className="PROFILE-MENU-BUTTON h-full w-[2rem] overflow-hidden rounded-full bg-[var(--gray-90)] hover:bg-[var(--gray-87)]"
             onClick={openUserSidebar}
-          ></button>
+          >
+            <img src="picture.jpg" alt="foto de perfil" />
+          </button>
           <nav className="NAVBAR flex h-full min-w-[6rem] flex-row gap-2">
             <NavActions />
           </nav>

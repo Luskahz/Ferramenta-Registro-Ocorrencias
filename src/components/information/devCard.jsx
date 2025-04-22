@@ -3,7 +3,7 @@ import { Block, Title } from "../index";
 export function DevHl() {
   return (
     <Block.Full className="flex-col border-2 border-[var(--gray-80)]">
-      <Title.Md_L>Devoluções Hectolitro</Title.Md_L>
+      <Title.Sm_L>Devoluções Hectolitro</Title.Sm_L>
       <div className="Content h-full w-full"></div>
     </Block.Full>
   );
@@ -11,7 +11,7 @@ export function DevHl() {
 export function DevPDV() {
   return (
     <Block.Full className="flex-col border-2 border-[var(--gray-80)]">
-      <Title.Md_L>Devoluções PDV</Title.Md_L>
+      <Title.Sm_L>Devoluções PDV</Title.Sm_L>
       <div className="Content h-full w-full"></div>
     </Block.Full>
   );

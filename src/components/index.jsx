@@ -1,5 +1,5 @@
 // ===== Layout =====
-export { default as Background } from "./background";
+export { default as Background } from "./pageElements/background";
 export { default as Header } from "./header/componentHeader";
 export { default as GlobalHeader } from "./header/globalHeader";
 export { default as LocalHeader } from "./header/localHeader";
@@ -9,6 +9,7 @@ export { DevPDV, DevHl } from "./information/devCard";
 export { default as DevCard } from "./information/devCard";
 export { default as LeftDeliver } from "./information/leftDeliver";
 export { default as UccurrenceCard } from "./information/uccurrenceCard";
+export { default as TRCard } from "./information/trCard";
 
 // ===== Navegação =====
 export { default as NavActions } from "./navLinks/navActions";

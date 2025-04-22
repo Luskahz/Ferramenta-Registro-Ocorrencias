@@ -1,6 +1,5 @@
 @import "tailwindcss";
 @import "./styles/var/colors.css";
-@import "./styles/var/colors.css";
 
 header {
   --GlobalHeaderH: 3.5rem;
