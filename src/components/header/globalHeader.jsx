@@ -13,7 +13,7 @@ export default function GlobalHeader({ openSideMenubar, openUserSidebar }) {
           </button>
           <a
             href="/"
-            className="LOGO-ICON-BUTTON h-full min-w-[2rem] rounded-full bg-[var(--gray-90)] hover:bg-[var(--gray-87)]"
+            className="LOGO-ICON-BUTTON h-full min-w-[2rem]  max-w-[2rem] rounded-full bg-[var(--gray-90)] hover:bg-[var(--gray-87)]"
           ></a>
           <div className="BREADCRUMB h-full min-w-[10rem] rounded-sm border-[0.5px] border-[var(--gray-80)]"></div>
           <div className="sm:hidden w-full h-full flex flex-row-reverse">
@@ -28,7 +28,7 @@ export default function GlobalHeader({ openSideMenubar, openUserSidebar }) {
         </div>
         <div className="END-ITENS m-2 flex h-[2rem] w-full sm:w-[50%] flex-row-reverse items-center gap-5 bg-[var(--gray-95)]">
           <button
-            className="PROFILE-MENU-BUTTON h-full w-[2rem] overflow-hidden hidden sm:block rounded-full bg-[var(--gray-90)] hover:bg-[var(--gray-87)]"
+            className="PROFILE-MENU-BUTTON h-full max-w-[2rem]  min-w-[2rem] overflow-hidden hidden sm:block rounded-full bg-[var(--gray-90)] hover:bg-[var(--gray-87)]"
             onClick={openUserSidebar}
           >
             <img src="picture.jpg" alt="foto de perfil" />
