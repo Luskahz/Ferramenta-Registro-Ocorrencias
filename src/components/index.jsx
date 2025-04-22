@@ -48,7 +48,7 @@ import {
 
 export const Title = {
   Xs: Title_Xs,
-  Xs_L: Title_Xl_Left,
+  Xs_L: Title_Xs_Left,
 
   Sm: Title_Sm,
   Sm_L: Title_Sm_Left,
