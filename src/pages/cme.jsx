@@ -1,5 +1,4 @@
-import { GlobalElements } from "../components/pageElements/layout";
-import Background from "../components/background";
+import { GlobalElements, Background } from "../components/index.js";
 
 export const CME = () => {
   return (

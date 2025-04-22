@@ -1,6 +1,12 @@
-import BlockFull from "../ui/ui-blocks/blockFull";
-import Title_GG from "../ui/ui-typography/Title_GGy";
+import { Title, Block } from "../index";
 
 export default function LeftDeliver() {
-  return <BlockFull className=""></BlockFull>;
+  return (
+    <Block.Full className="flex flex-col">
+      <Title.Xl>testando titulo</Title.Xl>
+      <Title.Lg>testando titulo</Title.Lg>
+      <Title.Md>testando titulo</Title.Md>
+      <Title.Sm>testando titulo</Title.Sm>
+    </Block.Full>
+  );
 }

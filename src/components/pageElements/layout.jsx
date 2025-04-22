@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import Header from "../header/componentHeader";
-import SideMenuBar from "../sidebar/sideMenuBar";
-import UserSideBar from "../sidebar/userSideBar";
 
-export function GlobalElements({ children }) {
+import { Header, SideMenuBar, UserSideBar } from "..";
+
+export default function GlobalElements({ children }) {
   //variaveis para o SideMenubar
   const [isSideMenubarOpen, setIsSideMenubarOpen] = useState(false);
   const openSideMenubar = () => setIsSideMenubarOpen(true);

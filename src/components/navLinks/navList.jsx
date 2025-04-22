@@ -1,18 +1,18 @@
-import Title_P_Left from "../ui/ui-typography/Title_P_Left";
+import { Title } from "../index";
 
-const GestaoPages = () => {
+export function GestaoPages() {
   return (
     <>
       <li className="filter transition hover:brightness-75">
-        <Title_P_Left>
+        <Title.Sm_L>
           <a href="/monitoramento">MONITORAMENTO</a>
-        </Title_P_Left>
+        </Title.Sm_L>
       </li>
     </>
   );
-};
+}
 
-export const Navlist = () => {
+export function Navlist() {
   return (
     <>
       <nav className="p-5 pt-10">
@@ -31,4 +31,6 @@ export const Navlist = () => {
       </nav>
     </>
   );
-};
+}
+
+export default Navlist;

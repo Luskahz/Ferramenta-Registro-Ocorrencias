@@ -1,6 +1,6 @@
 import React from "react";
-import GlobalHeader from "./globalHeader";
-import LocalHeader from "./localHeader";
+
+import { GlobalHeader, LocalHeader } from "../index";
 
 function Header({ openSideMenubar, openUserSidebar }) {
   return (
