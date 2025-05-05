@@ -111,14 +111,33 @@ Ocorrecias/
 
 ##### PAGE 1 - Dashboard
 
-Contém as informações de rota com a quantidade de entregas totais x quantidade de entregas realizadas
 
-- Tempo em rota das equipes com quais equipes chegaram e qual o percentual de TR baseado no tempo máximo em rota (9h20)
-- Percentual de devolução PDV x percentual de devolução HL
-- Aderência ao raio das equipes (devolução x entregas)
-- Percentual reversão com base nas ocorrências tratadas pelo monitoramento
-- Lista das devoluções x motivo Global
-- Lista das equipes com maior peso pendente para entregar
+###### Valores globais
+Valores que serão extraidos das bases de dados fornecidas durante o dia
+
+
+-Total entregas faturadas;
+-Total entregas em rota
+-Total mapas faturados
+-Total mapas em rota
+-Total frotas validas em rota
+###### Valores especificos: base entregas ->
+- Entregas realizadas
+- entregas restantes
+- entregas devolvidas
+- percentual devolução pdv e hl
+- Farol de devoluções (via modal, lista de motivos e motivos especificos)
+- Quantidade ocorrencias
+- Percentual reversão PDV e HL (com base principal nas ocorrencias registradas pelo proprio user)
+- Aderencia ao raio entregas realizadas
+- Aderencia ao raio devoluções
+###### Valores especificos: base frotas validas ->
+- Equipes em rota
+- Equipes que chegaram
+- tempo em rota com base na chegada atual
+- tempo medio de liberação com base na saida da equipe
+- top 5 motoristas criticos (com base num concenso entre peso/quantidade pdv restante)
+
 
 ##### PAGE 2 - Monitoramento
 
