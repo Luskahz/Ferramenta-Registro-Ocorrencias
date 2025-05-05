@@ -48,28 +48,28 @@ export default function CME() {
               <div className="h-48 w-full md:w-1/4">
                 {/* componente: IndicadorCard */}
                 <Block.Full className="flex flex-col items-center justify-center border-2 border-[var(--gray-80)] p-4">
-                  <Title.Sm>Total entregas faturadas</Title.Sm>
+                  <Title.Sm>xx</Title.Sm>
                   <Title.Lg>120</Title.Lg>
                 </Block.Full>
               </div>
               <div className="h-48 w-full md:w-1/4">
                 {/* componente: IndicadorCard */}
                 <Block.Full className="flex flex-col items-center justify-center border-2 border-[var(--gray-80)] p-4">
-                  <Title.Sm>Total entregas em rota</Title.Sm>
+                  <Title.Sm>xx</Title.Sm>
                   <Title.Lg>95</Title.Lg>
                 </Block.Full>
               </div>
               <div className="h-48 w-full md:w-1/4">
                 {/* componente: IndicadorCard */}
                 <Block.Full className="flex flex-col items-center justify-center border-2 border-[var(--gray-80)] p-4">
-                  <Title.Sm>Total mapas faturados</Title.Sm>
+                  <Title.Sm>xx</Title.Sm>
                   <Title.Lg>50</Title.Lg>
                 </Block.Full>
               </div>
               <div className="h-48 w-full md:w-1/4">
                 {/* componente: IndicadorCard */}
                 <Block.Full className="flex flex-col items-center justify-center border-2 border-[var(--gray-80)] p-4">
-                  <Title.Sm>Total mapas em rota</Title.Sm>
+                  <Title.Sm>xx</Title.Sm>
                   <Title.Lg>30</Title.Lg>
                 </Block.Full>
               </div>
@@ -87,21 +87,21 @@ export default function CME() {
               <div className="h-48 w-full sm:w-1/2 lg:w-1/4">
                 {/* componente: IndicadorCard */}
                 <Block.Full className="flex flex-col items-center justify-center border-2 border-[var(--gray-80)] p-4">
-                  <Title.Sm>Entregas realizadas</Title.Sm>
+                  <Title.Sm>xx</Title.Sm>
                   <Title.Lg>110</Title.Lg>
                 </Block.Full>
               </div>
               <div className="h-48 w-full sm:w-1/2 lg:w-1/4">
                 {/* componente: IndicadorCard */}
                 <Block.Full className="flex flex-col items-center justify-center border-2 border-[var(--gray-80)] p-4">
-                  <Title.Sm>Entregas restantes</Title.Sm>
+                  <Title.Sm>xx</Title.Sm>
                   <Title.Lg>10</Title.Lg>
                 </Block.Full>
               </div>
               <div className="h-48 w-full sm:w-1/2 lg:w-1/4">
                 {/* componente: IndicadorCard */}
                 <Block.Full className="flex flex-col items-center justify-center border-2 border-[var(--gray-80)] p-4">
-                  <Title.Sm>Entregas devolvidas</Title.Sm>
+                  <Title.Sm>xx</Title.Sm>
                   <Title.Lg>5</Title.Lg>
                 </Block.Full>
               </div>
@@ -112,7 +112,7 @@ export default function CME() {
               <div className="h-42 w-full md:w-1/4">
                 {/* componente: IndicadorCard */}
                 <Block.Full className="flex flex-col items-center justify-center border-2 border-[var(--gray-80)] p-4">
-                  <Title.Sm>Percentual devolução PDV/HL</Title.Sm>
+                  <Title.Sm>xx</Title.Sm>
                   <Title.Lg>PDV: 8% / HL: 12%</Title.Lg>
                 </Block.Full>
               </div>
@@ -134,14 +134,14 @@ export default function CME() {
               <div className="h-42 w-full md:w-1/4">
                 {/* componente: IndicadorCard */}
                 <Block.Full className="flex flex-col items-center justify-center border-2 border-[var(--gray-80)] p-4">
-                  <Title.Sm>Quantidade de ocorrências</Title.Sm>
+                  <Title.Sm>xx</Title.Sm>
                   <Title.Lg>12</Title.Lg>
                 </Block.Full>
               </div>
               <div className="h-42 w-full md:w-1/4">
                 {/* componente: IndicadorCard */}
                 <Block.Full className="flex flex-col items-center justify-center border-2 border-[var(--gray-80)] p-4">
-                  <Title.Sm>Percentual reversão PDV/HL</Title.Sm>
+                  <Title.Sm>xx</Title.Sm>
                   <Title.Lg>PDV: 5% / HL: 7%</Title.Lg>
                 </Block.Full>
               </div>
