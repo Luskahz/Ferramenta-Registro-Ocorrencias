@@ -1,5 +1,6 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
+
+import ReversaoCard, { OccurrenceList } from "../components/information/ReversaoCard.jsx"
 
 import {
   GlobalElements,
@@ -30,7 +31,9 @@ function Dashboard() {
               <div className="h-48 w-full rounded-sm md:h-[50vh] md:w-3/5">
                 <DevCard />
               </div>
-              <div className="h-48 w-full rounded-sm border-2 border-[var(--gray-80)] md:h-[50vh] md:w-2/7"></div>
+              <div className="h-48 w-full rounded-sm md:h-[50vh] md:w-2/7 overflow-hidden">
+                <ReversaoCard />
+              </div>
             </div>
 
             <div className="flex w-full flex-col gap-2  sm:flex-row">
