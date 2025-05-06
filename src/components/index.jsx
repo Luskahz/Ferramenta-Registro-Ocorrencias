@@ -9,7 +9,7 @@ export { DevPDV, DevHl } from "./information/devCard";
 export { default as DevCard } from "./information/devCard";
 export { default as LeftDeliver } from "./information/leftDeliver";
 export { default as UccurrenceCard } from "./information/uccurrenceCard";
-export { default as TRCard } from "./information/trCard";
+export { default as TRCard } from "./information/TRCard";
 
 // ===== Navegação =====
 export { default as NavActions } from "./navLinks/navActions";

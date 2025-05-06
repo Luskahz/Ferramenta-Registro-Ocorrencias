@@ -1,17 +1,4 @@
-{/*import { GlobalElements, Background } from "../components/index";
 
-export const CME = () => {
-  return (
-    <>
-      <Background>
-        <GlobalElements>
-        </GlobalElements>
-      </Background>
-    </>
-  );
-};
-
-*/}
 import React, { useState } from "react";
 import {
   GlobalElements,

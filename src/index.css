@@ -28,15 +28,16 @@ body,
 }
 
 .scrollbar-custom::-webkit-scrollbar-track {
-  background: var(--gray-85); /* fundo da trilha */
+  background: inherit; /* fundo da trilha */
   border-radius: 10px;
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb {
-  background: var(--gray-60); /* cor do thumb padrão */
+  background: var(--gray-80); /* cor do thumb padrão */
   border-radius: 10px;
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb:hover {
-  background: var(--gray-40); /* cor do thumb ao passar o mouse */
+  
+  background: var(--gray-60); 
 }
